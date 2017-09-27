@@ -1,0 +1,29 @@
+#recover-pawssword {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .recover-form {
+    display: flex;
+    width: 30rem;
+
+    form {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      > div {
+        flex-basis: 100%;
+      }
+
+      .errors {
+        span {
+          color: red;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
